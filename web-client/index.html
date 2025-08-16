@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimizador de Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Optimizador de Portafolio de Inversiones</h1>
+
+        <div class="card">
+            <h2>Configuración</h2>
+            <div class="form-group">
+                <label for="capacidad">Presupuesto Máximo (Capacidad):</label>
+                <input type="number" id="capacidad" placeholder="Ej: 10000">
+            </div>
+
+            <h3>Oportunidades de Inversión</h3>
+            <div id="proyectos-container">
+                <!-- Proyectos se agregarán dinámicamente aquí -->
+            </div>
+            <button id="add-proyecto" class="btn btn-secondary">Agregar Proyecto</button>
+        </div>
+
+        <div class="actions">
+            <button id="calcular-btn" class="btn btn-primary">Calcular</button>
+            <button id="limpiar-btn" class="btn btn-danger">Limpiar</button>
+        </div>
+
+        <div id="resultado-container" class="card hidden">
+            <h2>Resultados de la Optimización</h2>
+            <div id="resultado-contenido"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
