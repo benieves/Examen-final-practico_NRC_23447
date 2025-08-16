@@ -5,7 +5,7 @@ Este proyecto implementa un microservicio para optimizar un portafolio de invers
 ## Estructura del Proyecto
 
 ```
-proyecto-portafolio/
+Examen-final-practico_NRC_23447/
 ├── api-service/
 │   ├── app.py             # Lógica del microservicio (FastAPI)
 │   ├── requirements.txt    # Dependencias de Python
@@ -37,7 +37,7 @@ El microservicio está construido con FastAPI.
 
 1.  Navega al directorio `api-service`:
     ```bash
-    cd proyecto-portafolio/api-service
+    cd Examen-final-practico_NRC_23447/api-service
     ```
 2.  Crea un entorno virtual (si no lo has hecho ya):
     ```bash
@@ -80,7 +80,7 @@ Para evitar problemas de CORS al abrir `index.html` directamente desde el navega
 
 1.  Navega al directorio `web-client`:
     ```bash
-    cd proyecto-portafolio/web-client
+    cd Examen-final-practico_NRC_23447/web-client
     ```
 2.  Inicia un servidor HTTP simple de Python:
     ```bash
@@ -96,7 +96,7 @@ Si tienes Docker instalado, puedes construir y ejecutar el microservicio en un c
 
 1.  Navega al directorio `api-service`:
     ```bash
-    cd proyecto-portafolio/api-service
+    cd Examen-final-practico_NRC_23447/api-service
     ```
 2.  Construye la imagen Docker:
     ```bash
